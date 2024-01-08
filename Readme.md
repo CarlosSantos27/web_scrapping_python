@@ -9,7 +9,7 @@ Asegúrate de tener [Python](https://www.python.org/) instalado en tu sistema. L
 1. Clona el repositorio:
 
     ```bash
-    git clone https://github.com/tu_usuario/tu_proyecto.git
+    git clone https://github.com/CarlosSantos27/web_scrapping_python.git
     cd tu_proyecto
 
 2. Instala y configura [poetry](https://python-poetry.org/docs/#installation)
@@ -28,9 +28,9 @@ Esto instalará las bibliotecas necesarias, incluyendo Selenium.
 Esto instalará los complementos faltantes de ffdl
 
 5. El proyecto require un WebDriver de acuerdo al sistema operativo en este caso, el proyecto fue desarrollado y probado en Windows, si desea probar en otros sistemas operativos siga los siguientes pasos:
-    5.1. Descarga el driver de acuerdo a su sistema operativo [driver web](https://github.com/mozilla/geckodriver/releases)
-    5.2 Una vez descargado copiar en la carpeta files de acuerdo al navegador (chrome o Firefox-gecko)
-    5.3 En el archivo config.ini cambiar las propiedades por:
+    1. Descarga el driver de acuerdo a su sistema operativo [driver web](https://github.com/mozilla/geckodriver/releases)
+    2. Una vez descargado copiar en la carpeta files de acuerdo al navegador (chrome o Firefox-gecko)
+    3. En el archivo config.ini cambiar las propiedades por:
     ```bash
     web_driver=< nombre del archivo >
     default_web_browser=chrome | firefox
@@ -38,6 +38,8 @@ Esto instalará los complementos faltantes de ffdl
 6. Ejecutar el servidor usando el comando
     ```bash
     poetry run uvicorn:app
+
+7. (Opcional). Si desea visualizar el proceso para validar el catpcha cambiar el valor de la propiedad **preview** por **True**
 
 
 

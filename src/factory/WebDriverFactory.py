@@ -17,19 +17,22 @@ class WebDriverFactory:
         test_driver = self.__chooise_browser(config=config)
         return test_driver
     
-    def __buildChromeOptions(self)-> ChromeOptions:
-        ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    def __buildChromeOptions(self, config:Config)-> ChromeOptions:
+        ua = 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/W.X.Y.Z Safari/537.36'
         options = self.__buildGeneralOptions(ChromeOptions())
-        
-        # options.add_argument("--headless")  # Remove this if you want to see the browser (Headless makes the chromedriver not have a GUI)
+        showPreview=config.getBoolean("preview")
+        if showPreview == False:
+            options.add_argument("--headless")  # Remove this if you want to see the browser (Headless makes the chromedriver not have a GUI)
 
         options.add_argument('--user-agent={ua}')
         return options
     
-    def __buildFirefoxOptions(self)-> FirefoxOptions:
-        ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    def __buildFirefoxOptions(self, config:Config)-> FirefoxOptions:
+        ua = 'Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Googlebot/2.1; +http://www.google.com/bot.html) Chrome/W.X.Y.Z Safari/537.36'
         options = self.__buildGeneralOptions(FirefoxOptions())
-        options.headless = True
+        showPreview=config.getBoolean("preview")
+        if showPreview==False:
+            options.headless = True
         options.set_preference("general.useragent.override", ua)
         return options
     
@@ -44,9 +47,9 @@ class WebDriverFactory:
         match self.__browser:
             case DriverWebEnum.CHROME:
                 path=path_driver + "/chromedriver/" + config.get("web_driver")
-                return webdriver.Chrome(executable_path=path, options=self.__buildChromeOptions())
+                return webdriver.Chrome(executable_path=path, options=self.__buildChromeOptions(config=config))
             case DriverWebEnum.FIREFOX:
                 path_driver='{path_driver}/geckodriver/' + config.get("web_driver")
-                return webdriver.Firefox(executable_path=path_driver, options=self.__buildFirefoxOptions())
+                return webdriver.Firefox(executable_path=path_driver, options=self.__buildFirefoxOptions(config=config))
             case _:
                 raise ERRORS[ErrorCode.E003]
