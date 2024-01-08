@@ -10,7 +10,7 @@ Asegúrate de tener [Python](https://www.python.org/) instalado en tu sistema. L
 
     ```bash
     git clone https://github.com/CarlosSantos27/web_scrapping_python.git
-    cd tu_proyecto
+    cd web_scrapping_python
 
 2. Instala y configura [poetry](https://python-poetry.org/docs/#installation)
 
