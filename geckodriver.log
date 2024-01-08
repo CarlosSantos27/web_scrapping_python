@@ -1,0 +1,121 @@
+1704335766209	geckodriver	INFO	Listening on 127.0.0.1:50636
+1704335769276	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-extensions" "--wi ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junio\\AppData\\Local\\Temp\\rust_mozprofileyFNF5B"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704335769928	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-window-size"
+1704335770046	Marionette	INFO	Listening on port 50648
+WebDriver BiDi listening on ws://127.0.0.1:50637
+Read port: 50648
+1704335770421	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:50637/devtools/browser/f4f4d5b6-ccb6-4ee4-9e30-80e85124e146
+console.error: ({})
+1704335800908	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1704339628773	geckodriver	INFO	Listening on 127.0.0.1:51700
+1704339631879	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-extensions" "--wi ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junio\\AppData\\Local\\Temp\\rust_mozprofilerc3ggq"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704339632280	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-window-size"
+1704339632382	Marionette	INFO	Listening on port 51709
+Read port: 51709
+WebDriver BiDi listening on ws://127.0.0.1:51701
+1704339632627	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51701/devtools/browser/e1cbed79-1c6b-4a3b-8165-e9752663150a
+console.error: ({})
+1704339663585	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+Exiting due to channel error.
+Listening on 127.0.0.1:51883
+1704339949320	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-extensions" "--wi ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junio\\AppData\\Local\\Temp\\rust_mozprofile8zgB1O"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704339949616	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-window-size"
+1704339949676	Marionette	INFO	Listening on port 51892
+WebDriver BiDi listening on ws://127.0.0.1:51884
+Read port: 51892
+1704339949833	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51884/devtools/browser/847388f5-6f3f-46bf-a75f-39d66e3e8be0
+console.error: ({})
+1704339980115	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js, line 758: Script terminated by timeout at:
+L@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:758:407
+nO@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:759:84
+y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:401:383
+g<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:561:11
+q</K<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:351:146
+yh<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:203:346
+g</this.next@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:512:247
+y</K<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:220
+y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:113
+c<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:636:305
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:351:109
+n</V<@htExiting due to channel error.
+/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:437:183
+yh<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:203:346
+g</this.next@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:512:247
+y</K<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:220
+y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:113
+c<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:636:305
+n<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:437:57
+l</Z<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:571:447
+yh<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:203:346
+g</this.next@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:512:247
+y</K<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:220
+y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:113
+c<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:636:305
+l<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:571:353
+q</q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:348:140
+aK@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:857:287
+h@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:591:25
+M@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:513:349
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1704340050988	geckodriver	INFO	Listening on 127.0.0.1:52017
+1704340054042	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--no-sandbox" "--disable-extensions" "--wi ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\junio\\AppData\\Local\\Temp\\rust_mozprofileDAfzFY"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1704340054336	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+console.error: "Warning: unrecognized command line flag" "-no-sandbox"
+console.error: "Warning: unrecognized command line flag" "-window-size"
+1704340054397	Marionette	INFO	Listening on port 52029
+WebDriver BiDi listening on ws://127.0.0.1:52018
+Read port: 52029
+1704340054547	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:52018/devtools/browser/85d4110c-a55c-43f2-a19c-481e4ba2546e
+console.error: ({})
+1704340084805	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
+console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
+Exiting due to channel error.
+Exiting due to channel error.
